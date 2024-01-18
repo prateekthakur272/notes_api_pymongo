@@ -9,6 +9,7 @@ uvicorn = "*"
 pymongo = {extras = ["srv"], version = "*"}
 python-dotenv = "*"
 certifi = "*"
+jinja2 = "*"
 
 [dev-packages]
 
