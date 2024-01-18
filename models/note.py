@@ -3,6 +3,13 @@ from datetime import datetime
 
 
 class Note(BaseModel):
-    title: str = Field(max_length=100)
+    title: str = Field(...,max_length=100)
     description: str
-    last_updated: datetime
+
+class NoteIn(Note):
+    pass
+
+class NoteOut(Note):
+    id: str
+    created: datetime
+    updated: datetime
