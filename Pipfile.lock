@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "377b73760b9cb96766d439d88c90cd398572d0c278631c6e61e5f94ee4d0e922"
+            "sha256": "10d216ad47537689ce2aec1627d30425dd7b1717ba6d177b07cbaa1de0b2f81c"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -31,6 +31,15 @@
             ],
             "markers": "python_version >= '3.8'",
             "version": "==4.2.0"
+        },
+        "certifi": {
+            "hashes": [
+                "sha256:9b469f3a900bf28dc19b8cfbf8019bf47f7fdd1a65a1d4ffb98fc14166beb4d1",
+                "sha256:e036ab49d5b79556f99cfc2d9320b34cfbe5be05c5871b51de9329f0603b0474"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.6'",
+            "version": "==2023.11.17"
         },
         "click": {
             "hashes": [
@@ -282,6 +291,15 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==4.6.1"
+        },
+        "python-dotenv": {
+            "hashes": [
+                "sha256:a8df96034aae6d2d50a4ebe8216326c61c3eb64836776504fcca410e5937a3ba",
+                "sha256:f5971a9226b701070a4bf2c38c89e5a3f0d64de8debda981d1db98583009122a"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
+            "version": "==1.0.0"
         },
         "sniffio": {
             "hashes": [
